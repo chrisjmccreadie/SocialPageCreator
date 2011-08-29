@@ -26,6 +26,7 @@ class spc
     {
 	foreach ($this->sites as $site)
 	{
+		//echo "$this->server : ".$site['url'];
 		if ($this->server == $site['url'])
 		{
 			$this->site = (object) $site;

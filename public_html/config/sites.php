@@ -17,7 +17,7 @@ $sites[0]['about'] = 'class/custom/aboutsite1.php';
 $sites[0]['css'] = 'css/layout.css';
 
 $sites[1]['title']  = 'example site';
-$sites[1]['url'] = 'totemspc.fluxflex.com';
+$sites[1]['url'] = 'devserverone.org';
 $sites[1]['twitter'] = 'totemsoftware';
 $sites[1]['twittercount'] = 5;
 $sites[1]['rss1'] = 'http://www.thetutorialblog.com/feed/';

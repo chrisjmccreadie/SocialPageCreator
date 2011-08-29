@@ -11,6 +11,7 @@ include('class/spc.php');
 $className = 'spc';
 $spc = new $className;
 //Get the root url.
+//echo $_SERVER['SERVER_NAME'];
 $spc->server = $_SERVER['SERVER_NAME'];
 $spc->findsite();
 $spc->fetchTwitter();
