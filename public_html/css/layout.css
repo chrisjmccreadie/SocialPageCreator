@@ -1,0 +1,20 @@
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin-right: 200px; /*Set right margin to RightColumnWidth*/
+}
+
+#rightcolumn{
+float: left;
+width: 200px; /*Width of right column*/
+margin-left: -200px; /*Set left margin to -(RightColumnWidth) */
+background: #FDE95E;
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
